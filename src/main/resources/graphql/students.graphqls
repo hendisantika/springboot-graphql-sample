@@ -16,3 +16,10 @@ type Address {
     city:   String!,
     zipcode: Int!
 }
+
+type Student {
+    name: String!
+    age: Int!
+    phone: String
+    address: Address!
+}
