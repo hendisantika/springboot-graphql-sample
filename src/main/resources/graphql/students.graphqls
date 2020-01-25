@@ -23,3 +23,7 @@ type Student {
     phone: String
     address: Address!
 }
+
+type Query {
+    student(name:String) : Student;
+}
