@@ -1,0 +1,6 @@
+input StudentInput {
+    name: String!
+    age: Int!
+    phone: String
+    address: AddressInput!
+}
