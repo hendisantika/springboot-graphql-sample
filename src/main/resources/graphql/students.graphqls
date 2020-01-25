@@ -10,3 +10,9 @@ input AddressInput {
     city:   String!,
     zipcode: Int!
 }
+
+type Address {
+    street: String!,
+    city:   String!,
+    zipcode: Int!
+}
