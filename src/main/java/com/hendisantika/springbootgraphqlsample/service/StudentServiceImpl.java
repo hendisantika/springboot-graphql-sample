@@ -23,4 +23,12 @@ public class StudentServiceImpl implements StudentService {
     public Student getStudentDetailsByName(String name) {
         return null != name ? map.get(name) : null;
     }
+
+    @Override
+    public Student createStudentRecord(Student student) {
+        if (null != student) {
+            map.put(student.getName(), student);
+        }
+        return student;
+    }
 }
