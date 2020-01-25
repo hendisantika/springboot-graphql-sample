@@ -4,3 +4,9 @@ input StudentInput {
     phone: String
     address: AddressInput!
 }
+
+input AddressInput {
+    street: String!,
+    city:   String!,
+    zipcode: Int!
+}
