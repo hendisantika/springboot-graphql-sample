@@ -1,3 +1,7 @@
+schema {
+    query: Query
+}
+
 input StudentInput {
     name: String!
     age: Int!
@@ -26,6 +30,7 @@ type Student {
 
 type Query {
     student(name:String) : Student;
+    allStudent: [Student]
 }
 
 type Mutation {
