@@ -13,3 +13,5 @@ Running the app:
 
 OR from the command prompt run below command -->
    `mvn clean spring-boot:run`
+
+Source from this [article](https://dzone.com/articles/graphql-with-springboot?edition=565302&utm_source=Daily%20Digest&utm_medium=email&utm_campaign=Daily%20Digest%202020-01-25) .
