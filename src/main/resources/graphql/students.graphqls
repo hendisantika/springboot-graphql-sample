@@ -27,3 +27,7 @@ type Student {
 type Query {
     student(name:String) : Student;
 }
+
+type Mutation {
+    createStudent(input: StudentInput) : Student;
+}
