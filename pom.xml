@@ -17,7 +17,7 @@
     <properties>
         <java.version>21</java.version>
         <graphql-spring-boot.version>11.1.0</graphql-spring-boot.version>
-        <graphql-java.version>14.0.0</graphql-java.version>
+        <graphql-java.version>14.0.1</graphql-java.version>
     </properties>
 
     <dependencies>
